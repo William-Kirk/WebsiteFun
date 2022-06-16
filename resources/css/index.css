@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+  }
+
+.topbar{
+    width: 240px;
+    height: 48px;
+    background-color: #283038;
+    border-bottom: solid;
+    border-color: black;
+}
+
+button{
+    padding: 240 50;
+}
+
