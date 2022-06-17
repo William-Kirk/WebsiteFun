@@ -7,6 +7,7 @@
 html, body {
  margin: 0;
  padding: 0;
+ background-color: #343b45;
 }
 
 .topbar{
@@ -17,19 +18,21 @@ html, body {
   border-color: rgb(28, 28, 28);
   position:fixed;
   top: 0;
+  z-index: 10;
 }
 
 button{
   text-align: left;
-  background-color: black;
+  background-color: rgb(26, 26, 26);
   color: rgb(150, 150, 150);
-  border: 4px solid black;
+  border: 4px solid rgb(26, 26, 26);
   padding-right: 50px;
-  margin-left: 7px;
+  margin-left: 13px;
   margin-top: 11px;
 }
 
 .under-topbar{
+  /* overflow: scroll; */
   margin-top: 48px;
   width: 240px;
   background-color: #283038;
@@ -50,7 +53,7 @@ button{
 }
 
 .pretty-button:hover{
-  background-color: #3e4248;;
+  background-color: #3e4248;
 }
 
 a{
@@ -69,8 +72,63 @@ ul{
 
 .dm-section{
   color:rgb(177, 177, 177);
-  float: left;
-  font-size: 18px;
+}
+.dm-section.text{
+  margin-left: 20px;
+  font-size: 12px;
   text-transform: uppercase;
+  float: left;
 }
 
+.dm-section.icon{
+  margin-bottom: 0;
+}
+
+.dm-section:hover{
+  color: rgb(224, 224, 224);
+}
+
+.filler{
+  /* width: 100px; */
+  height:15px
+}
+
+.friend{
+  position: relative;
+  max-width: 224px;
+  margin-left: 8px;
+  /* box-sizing: border-box; */
+  display: block;
+  box-sizing: border-box;
+  padding: 7px;
+  border-radius: 5px;
+  /* border: solid 2px; */
+  /* border-color: red; */
+  transition: none;
+}
+
+.interactive{
+  margin-left: 5px;
+}
+
+.friend:hover{
+  background-color: #3e4248;
+}
+
+.friend-content{
+  margin-left: 15px;
+  min-width: 0;
+}
+.friend-avatar{
+  float: left;
+}
+
+.name-decorators{
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-bottom: 7px;
+}
+
+.private-channel-invite-button-icon{
+  height: 15px;
+}
