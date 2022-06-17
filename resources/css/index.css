@@ -21,7 +21,16 @@ html, body {
   z-index: 10;
 }
 
-button{
+.bottom-bar{
+  width: 240px;
+  height: 53px;
+  background-color: #20262b;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+
+.fake-searchbar{
   text-align: left;
   background-color: rgb(26, 26, 26);
   color: rgb(150, 150, 150);
@@ -133,4 +142,57 @@ ul{
 
 .private-channel-invite-button-icon{
   height: 15px;
+}
+
+.container-something{
+  height: 52px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0 8px;
+  margin-bottom: 1px;
+}
+
+.personal-avater{
+  margin-right: 8px;
+}
+
+.personal-nametag{
+  cusor:pointer;
+  user-select: text;
+  webkit-box-flex: 1;
+  flex-grow: 1;
+  margin-left: 8px;
+  min-weidth:0;
+}
+
+.nametag-text-parent{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  white-space: nowrap:;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.nametag-text{
+  overflow: hidden;
+  color: white;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.text-id-num{
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  line-height:13px;
+  font-size: 12px;
+  color:lightgray;
+}
+
+.button-contents{
+  margin: 3px;
 }
