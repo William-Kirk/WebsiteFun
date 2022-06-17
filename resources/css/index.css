@@ -105,6 +105,8 @@ ul{
   /* border: solid 2px; */
   /* border-color: red; */
   transition: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .interactive{
